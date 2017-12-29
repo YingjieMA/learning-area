@@ -29,8 +29,8 @@
     request.responseType = 'json';
     request.send();
 
-    request.onload = function() {
-      var superHeroes = request.response;
+    request.onload = function() {//onload 请求成功时触发
+      var superHeroes = request.response;//获取整个JSON对象
       populateHeader(superHeroes);
       showHeroes(superHeroes);
     }
