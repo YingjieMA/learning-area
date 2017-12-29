@@ -11,12 +11,14 @@ body {
 
 h1, h2 {
   font-family: 'Faster One', cursive;
+/*   faster one 幻影效果 */
 }
 
 /* header styles */
 
 h1 {
   font-size: 4rem;
+  //css3中的rem, root element为16px，根据根元素换算大小
   text-align: center;
 }
 
